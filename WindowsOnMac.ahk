@@ -10,5 +10,5 @@ LControl & Tab::AltTab
 LControl & q::Send !{f4}
 
 ; Remap 'Command' + 'Space' to 'Win' + 'Space' 
-; Change language layout in Win 10
-LControl & Space::Send #{Space}
+; Change language layout in Win 10. It's commented-out, because Ctrl+Space is a handy short-cut in Visual Studio.
+; LControl & Space::Send #{Space}
