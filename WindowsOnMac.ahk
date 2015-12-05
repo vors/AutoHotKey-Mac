@@ -15,12 +15,12 @@ LControl & q::Send !{f4}
 
 ; Reverse scrolling, because trick with registry key sadanly stop working
 ; it generates a lot of events
-#MaxHotkeysPerInterval 300
+;#MaxHotkeysPerInterval 300
 
-WheelUp::
-Send {WheelDown}
-Return
+;WheelUp::
+;Send {WheelDown}
+;Return
 
-WheelDown::
-Send {WheelUp}
-Return
+;WheelDown::
+;Send {WheelUp}
+;Return
